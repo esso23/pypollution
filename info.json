@@ -1,0 +1,11 @@
+{
+  "name": "PyPollution",
+  "version": "0.0.1",
+  "factorio_version": "0.17",
+  "title": "Energy, Fuels & Pollution balance for Pyanodon's Suite",
+  "author": "Andrej Kmetík, Ján Mokrý",
+  "contact": "",
+  "homepage": "",
+  "description": "Pyanodon's mods are not optimized to play with biters enabled in terms of pollution. This is for players who like the challenge.",
+  "dependencies": ["pycoalprocessing", "pyindustry", "pyfusionenergy", "pyhightech", "pyrawores", "pypetroleumhandling"]
+}

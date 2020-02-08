@@ -1,0 +1,8 @@
+require('prototypes/map-preset')
+require('prototypes/fuels')
+require('prototypes/energy-generators')
+require('prototypes/fluid-voids')
+require('prototypes/gas-voids')
+require('prototypes/factories')
+require('prototypes/miners')
+require('prototypes/recipes')
