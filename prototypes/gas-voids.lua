@@ -39,3 +39,6 @@ data.raw.recipe["liquid-pure-air-pyvoid-gas"].emissions_multiplier = "0.0"
 
 data.raw.recipe["oxygen-pyvoid-gas"].energy = "0.0"
 data.raw.recipe["oxygen-pyvoid-gas"].emissions_multiplier = "0.0"
+
+data.raw.recipe["nitrogen-pyvoid-gas"].energy = "0.0"
+data.raw.recipe["nitrogen-pyvoid-gas"].emissions_multiplier = "0.0"
