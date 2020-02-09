@@ -79,8 +79,8 @@ for k,v in pairs(drills) do
 
 	local name = drill.name
 	local baseTech = get_base_tech(name)
-	local miningPowerCoeff = math.sqrt(drill.mining_power or 1) -- logarithmic growth
-	local miningSpeedCoeff = math.pow(drill.mining_speed, 0.66) -- logarithmic growth, just a little bit steeper
+	local miningPowerCoeff = math.pow(drill.mining_power or 1, 0.55) -- logarithmic growth
+	local miningSpeedCoeff = math.pow(drill.mining_speed, 0.70) -- logarithmic growth, just a little bit steeper
 	
 	if baseTech == nil then	
 		drill["energy_source"].emissions_per_minute = math.floor(v.coeff * miningSpeedCoeff * pollutionCoefficient * miningPowerCoeff)
@@ -96,7 +96,7 @@ for k,v in pairs(drills) do
 		--local baseMiningPower = baseEntity.mining_power or 1
 		local basePowerUsage = get_energy_usage(baseEntity.energy_usage)
 		local vPowerUsage = get_energy_usage(drill.energy_usage)
-		drill["energy_source"].emissions_per_minute = math.floor(v.coeff * (baseMiningSpeed * pollutionCoefficient) * (vPowerUsage / basePowerUsage))
+		drill["energy_source"].emissions_per_minute = math.floor(v.coeff * (baseMiningSpeed * pollutionCoefficient * miningPowerCoeff) * (vPowerUsage / basePowerUsage))
 	end
 end
 
