@@ -15,7 +15,7 @@ data.raw["generator"]["gasturbinemk03"].maximum_temperature = 1000
 data.raw["generator"]["gasturbinemk03"].fluid_usage_per_tick = 2 -- Default: 1.5
 data.raw["generator"]["gasturbinemk03"].effectivity = 1.1 -- Default: 1.47
 
--- Combustion Mixture recipes
+-- Combustion Mixture recipes balancing
 
 function SetRecipeResultAmount(recipe, result, newAmount)
   local results = data.raw.recipe[recipe].results
@@ -30,7 +30,7 @@ end
 SetRecipeResultAmount("coalgas-combustion", "combustion-mixture1", 100);     -- Default: 150
 SetRecipeResultAmount("coalslurry-combustion", "combustion-mixture1", 100);  -- Default: 150
 SetRecipeResultAmount("tall-oil-combustion", "combustion-mixture1", 200);    -- Default: 150
-SetRecipeResultAmount("hydrogen-combustion", "combustion-mixture1", 35);     -- Default: 150
+SetRecipeResultAmount("hydrogen-combustion", "combustion-mixture1", 40);     -- Default: 150
 SetRecipeResultAmount("syngas-combustion", "combustion-mixture1", 120);      -- Default: 150
 SetRecipeResultAmount("gasoline-combustion", "combustion-mixture1", 200);    -- Default: 150
 SetRecipeResultAmount("fuelrodmk02-combustion", "combustion-mixture1", 180); -- Default: 300

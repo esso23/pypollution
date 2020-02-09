@@ -24,6 +24,8 @@ local function set_emissions_multiplier(recipeName, productName, baseEnergy, bas
 	--log(recipeName.." ["..productName.."="..amountProduced.."] "..recipe.emissions_multiplier.."   ["..amountCoefficient.."]  ")
 end
 
+-- Better recipes are absorbing more pollution
+
 -- Botanical Nursery
 set_emissions_multiplier("log1", "log", 80, 3)
 set_emissions_multiplier("log2", "log", 80, 3)

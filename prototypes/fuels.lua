@@ -6,11 +6,6 @@ data.raw.item["crushed-coal"].fuel_emissions_multiplier = "1.2"
 data.raw.fluid["crude-oil"].emissions_multiplier = "1.5"
 data.raw.fluid["tar"].emissions_multiplier = "1.5"
 
-
--- It says "terrible pollution" in the description
-data.raw.item["coal-briquette"].fuel_emissions_multiplier = "1.2"
-
-
 -- Coke is polluting less than coal, it already generates a lot of pollution during processing anyway
 data.raw.item["coke"].fuel_emissions_multiplier = "0.85"
 
@@ -93,3 +88,17 @@ data.raw.fluid["ethylene"].fuel_value = "1MJ"
 data.raw.fluid["methane"].fuel_value = "0.4MJ" -- "0.8MJ" - This is way too easy to get
 data.raw.fluid["propene"].emissions_multiplier = "0.90"
 data.raw.fluid["propene"].fuel_value = "1MJ"
+
+-- Debug
+-- for _,v in pairs(data.raw.item) do
+	-- if v.fuel_value then
+		-- local emissions = v.fuel_emissions_multiplier or 1
+		-- log("[Item] "..v.name.." - "..v.fuel_value.."; emissions: "..emissions)
+	-- end
+-- end
+-- for _,v in pairs(data.raw.fluid) do
+	-- if v.fuel_value then
+		-- local emissions = v.emissions_multiplier or 1
+		-- log("[Fluid] "..v.name.." - "..v.fuel_value.."; emissions: "..emissions)
+	-- end
+-- end

@@ -2,9 +2,9 @@ local baseCoefficient = 10
 
 local assemblers = 
 {
-	{name = "distilator", coeff = 1.0},	-- Destructive Distillation Column
+	{name = "distilator", coeff = 2.0},	-- Destructive Distillation Column
 	{name = "gasifier", coeff = 1.0},
-	{name = "carbon-filter", coeff = 0.5},
+	{name = "carbon-filter", coeff = 0.4},
 	{name = "tar-processing-unit", coeff = 1.2},
 	{name = "rectisol", coeff = 1.0},
 	{name = "methanol-reactor", coeff = 1.2},
@@ -65,8 +65,8 @@ local assemblers =
 	{name = "chipshooter", coeff = 0.5},
 	{name = "nano-assembler", coeff = 1.1},
 	{name = "cadaveric-arum", coeff = -0.4},
-	{name = "quantum-computer", coeff = 0.0},
-	{name = "particle-accelerator", coeff = 0.0},
+	{name = "quantum-computer", coeff = 1.0},
+	{name = "particle-accelerator", coeff = 1.0},
 	{name = "scrubber", coeff = 0.7},
 	{name = "flotation-cell", coeff = 0.7},
 	{name = "wet-scrubber", coeff = 0.7},
@@ -84,9 +84,9 @@ local assemblers =
 	{name = "cracker", coeff = 3.0},	-- Multi-Purpose Cracker
 	{name = "reformer", coeff = 3.0},
 	{name = "rhe", coeff = 0.15},	-- Regenerative Heat Exchanger
-	{name = "tholin-atm", coeff = 0.5},
+	{name = "tholin-atm", coeff = 1.0},
 	{name = "pumpjack", coeff = 1.0},
-	{name = "tholin-plant", coeff = 0.2},
+	{name = "tholin-plant", coeff = 1.0},
 	{name = "lor", coeff = 3.0},	-- Light Oil Refinery
 	{name = "coalbed", coeff = 2.5},	-- Coalbed Extractor
 	{name = "gas-refinery", coeff = 3.0},

@@ -78,11 +78,12 @@ for k,v in pairs(drills) do
 	local drill = data.raw["mining-drill"][v.name]
 
 	local name = drill.name
-	local miningSpeed = drill.mining_speed
-	--local miningPower = drill.mining_power or 1
 	local baseTech = get_base_tech(name)
+	local miningPowerCoeff = math.sqrt(drill.mining_power or 1) -- logarithmic growth
+	local miningSpeedCoeff = math.pow(drill.mining_speed, 0.66) -- logarithmic growth, just a little bit steeper
+	
 	if baseTech == nil then	
-		drill["energy_source"].emissions_per_minute = v.coeff * miningSpeed * pollutionCoefficient		
+		drill["energy_source"].emissions_per_minute = math.floor(v.coeff * miningSpeedCoeff * pollutionCoefficient * miningPowerCoeff)
 	else
 		local baseEntity = data.raw["mining-drill"][baseTech]
 		
