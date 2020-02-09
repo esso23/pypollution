@@ -1,19 +1,19 @@
 -- Combustion Turbines
 
-data.raw["generator"]["gasturbinemk01"]["energy_source"].emissions_per_minute = 335.79
+data.raw["generator"]["gasturbinemk01"]["energy_source"].emissions_per_minute = math.floor(335.79)
 data.raw["generator"]["gasturbinemk01"].maximum_temperature = 750
 data.raw["generator"]["gasturbinemk01"].fluid_usage_per_tick = 0.5 -- Default: 1
 data.raw["generator"]["gasturbinemk01"].effectivity = 0.84 -- Default: 0.42
 
-data.raw["generator"]["gasturbinemk02"]["energy_source"].emissions_per_minute = 539.09
+data.raw["generator"]["gasturbinemk02"]["energy_source"].emissions_per_minute = math.floor(539.09)
 data.raw["generator"]["gasturbinemk02"].maximum_temperature = 900
-data.raw["generator"]["gasturbinemk01"].fluid_usage_per_tick = 1 -- Default: 1
-data.raw["generator"]["gasturbinemk01"].effectivity = 0.95 -- Default: 0.95
+data.raw["generator"]["gasturbinemk02"].fluid_usage_per_tick = 1 -- Default: 1
+data.raw["generator"]["gasturbinemk02"].effectivity = 0.95 -- Default: 0.95
 
-data.raw["generator"]["gasturbinemk03"]["energy_source"].emissions_per_minute = 750
+data.raw["generator"]["gasturbinemk03"]["energy_source"].emissions_per_minute = math.floor(750)
 data.raw["generator"]["gasturbinemk03"].maximum_temperature = 1000
-data.raw["generator"]["gasturbinemk01"].fluid_usage_per_tick = 2 -- Default: 1.5
-data.raw["generator"]["gasturbinemk01"].effectivity = 1.1 -- Default: 1.47
+data.raw["generator"]["gasturbinemk03"].fluid_usage_per_tick = 2 -- Default: 1.5
+data.raw["generator"]["gasturbinemk03"].effectivity = 1.1 -- Default: 1.47
 
 -- Combustion Mixture recipes
 
