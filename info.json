@@ -6,6 +6,6 @@
   "author": "Andrej Kmetík, Ján Mokrý",
   "contact": "",
   "homepage": "",
-  "description": "Pollution, Energy and Fuels balance for Pyanodon's Mod Suite.",
+  "description": "Pollution, Energy and Fuel balance for Pyanodon's Mod Suite.",
   "dependencies": ["pycoalprocessing", "pyindustry", "pyfusionenergy", "pyhightech", "pyrawores", "pypetroleumhandling"]
 }
