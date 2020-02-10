@@ -1,5 +1,9 @@
 data.raw["map-gen-presets"]["default"]["pyanodon-default"] = 
 {
+	basic_settings =
+	{
+		starting_area = 1.33,
+	},
     advanced_settings =
 	{
       enemy_evolution =
@@ -19,6 +23,10 @@ data.raw["map-gen-presets"]["default"]["pyanodon-default"] =
 
 data.raw["map-gen-presets"]["default"]["pyanodon-easy"] = 
 {
+	basic_settings =
+	{
+		starting_area = 1.33,
+	},
     advanced_settings =
 	{
       enemy_evolution =
@@ -38,12 +46,16 @@ data.raw["map-gen-presets"]["default"]["pyanodon-easy"] =
 
 data.raw["map-gen-presets"]["default"]["pyanodon-hard"] = 
 {
+	basic_settings =
+	{
+		starting_area = 1.33,
+	},
     advanced_settings =
 	{
       enemy_evolution =
 	  {
         pollution_factor = 4e-07,
-        time_factor = 15e-07,
+        time_factor = 10e-07,
 		destroy_factor = 100e-05
       },
       pollution =
