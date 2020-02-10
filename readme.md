@@ -7,7 +7,19 @@ Main goals of the mod:
 - Raw fuels like Wood, Coal and Crude Oil now pollute more while processed fuels pollute less. This should motivate players to build advanced processing chains.
 - Combustion Turbine rebalancing.
 - Hydrogen rebalancing - It now takes more energy to produce Hydrogen than it provides but Hydrogen now has 0% pollution modifier (like with real Hydrogen).
-- Pollution absorbing buildings now absorb more pollution when used with advanced recipes.
+- Pollution-absorbing buildings now absorb more pollution when used with advanced recipes.
+
+## Dependencies
+
+This mod is made to be played with entire pY Suite, so all these mods are required:
+- Pyanodons Raw Ores
+- Pyanodons Fusion Energy
+- Pyanodons Coal Processing
+- Pyanodons HighTech
+- Pyanodons Petroleum Handling
+- Pyanodons Industry
+
+Note: We have no plans to support soon to be released pY Alien Life right now. pyAL will introduce an entirely new level of difficulty which will make you go insane and we are not ready for such levels of pain (yet :).
 
 ## Diving deeper
 
@@ -51,8 +63,9 @@ Example:
 - **Coal** - 105% pollution
 - **Coke** - 85% pollution
 
-As you process further, you get less pollution on your fuels (this is not a general rule, we left some of them untouched at 100% pollution).
+As you process further, you get less pollution on your fuels (this is not a general rule, we left some of them untouched at 100% pollution).  
 We also made Fuel Rods viable, MK01 starts at 75% pollution and goes all the way down to 49% at MK05.
+Some liquid fuels have had their energy capacity reduced slightly.
 
 ### Hydrogen
 
