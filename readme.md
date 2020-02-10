@@ -1,3 +1,5 @@
+![](thumbnail.png)
+
 # pY Pollution & Energy
 
 Main goals of the mod:
@@ -84,7 +86,7 @@ Example:
 Botanical Nursery MK01 now has base pollution of -10/m
 - Basic recipe for Log takes 80 seconds and has pollution modifier 100%
 - Making Logs using water takes 60 seconds, but has pollution modifier 116.667% - now the building has pollution -11.67/m
-- The best recipe with Fertilizer takes 10 seconds and has 450% pollution modifier - now the build has pollution -45/m
+- The best recipe with Fertilizer takes 10 seconds and has 450% pollution modifier - now the building has pollution -45/m
 
 This works for the following buildings:
 - Botanical Nursery
