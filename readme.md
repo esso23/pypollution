@@ -48,7 +48,7 @@ We also changed some Combustion Mixture recipes, some were not viable and some w
 Example:
 - **Wood** - 125% pollution
 - **Coal** - 105% pollution
-- **Coke** - 85% pollution
+- **Coke** - 85% pollutin
 
 As you process further, you get less pollution on your fuels (this is not a general rule, we left some of them untouched at 100% pollution).
 We also made Fuel Rods viable, MK01 starts at 75% pollution and goes all the way down to 49% at MK05.
