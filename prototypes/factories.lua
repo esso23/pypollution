@@ -23,7 +23,7 @@ local assemblers =
 	{name = "classifier", coeff = 0.5},
 	{name = "advanced-foundry", coeff = 1.3},
 	{name = "fluid-separator", coeff = 0.8},
-	{name = "fawogae-plantation", coeff = -1.0},
+	{name = "fawogae-plantation", coeff = -0.5},
 	{name = "ulric-corral", coeff = -1.0},
 	{name = "ralesia-plantation", coeff = -1.5},
 	{name = "jaw-crusher", coeff = 0.8},
