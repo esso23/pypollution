@@ -99,3 +99,8 @@ This works for the following buildings:
 Why? Previously you were basically penalized for using more effective recipes, since you needed less buildings, absorbing less pollution.
 
 Note: Amount of products is also taken into consideration.
+
+# Special thanks
+
+To [Pyanodon](https://github.com/pyanodon) for creating this great mod [suite](https://mods.factorio.com/user/pyanodon).  
+You can support his work at his [Patreon](https://www.patreon.com/pyanodon/posts).
