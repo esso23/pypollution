@@ -79,17 +79,17 @@ local assemblers =
 	{name = "eaf", coeff = 1.2},	-- Electric Arc Furnace
 	{name = "sinter-unit", coeff = 1.0},	-- Sinter Unit
 	{name = "drp", coeff = 2.0},	-- Direct Reduction Plant
-	{name = "heavy-oil-refinery", coeff = 3.0},
+	{name = "heavy-oil-refinery", coeff = 2.0},
 	{name = "upgrader", coeff = 2.0},	-- Ionic Upgrader
 	{name = "cracker", coeff = 3.0},	-- Multi-Purpose Cracker
-	{name = "reformer", coeff = 3.0},
+	{name = "reformer", coeff = 2.0},
 	{name = "rhe", coeff = 0.15},	-- Regenerative Heat Exchanger
 	{name = "tholin-atm", coeff = 1.0},
 	{name = "pumpjack", coeff = 1.0},
 	{name = "tholin-plant", coeff = 1.0},
-	{name = "lor", coeff = 3.0},	-- Light Oil Refinery
-	{name = "coalbed", coeff = 2.5},	-- Coalbed Extractor
-	{name = "gas-refinery", coeff = 3.0},
+	{name = "lor", coeff = 2.0},	-- Light Oil Refinery
+	{name = "coalbed", coeff = 2.0},	-- Coalbed Extractor
+	{name = "gas-refinery", coeff = 2.0},
 	{name = "guar-gum-plantation", coeff = -1.5},
 	{name = "fracking-rig", coeff = 10.0},
 	{name = "retorter", coeff = 4.0},
@@ -149,7 +149,7 @@ for k,v in pairs(assemblers) do
 		baseEntity = data.raw["assembling-machine"][v.name .. "mk01"]
 	end
 	
-	baseEntity.energy_source.emissions_per_minute = baseCoefficient * v.coeff
+	baseEntity.energy_source.emissions_per_minute = math.floor(baseCoefficient * v.coeff)
 	
 	init_mk(baseEntity, 2, v.name, v.coeff)
 	init_mk(baseEntity, 3, v.name, v.coeff)
@@ -163,18 +163,3 @@ end
 	-- --log("data.raw[\"assembling-machine\"].[\"" .. v.name .. "\"].emissions_per_minute = " .. emissions)
 	-- log("[" .. v.name .. "]" .. ": Energy: " .. v.energy_usage .. "; Pollution: " .. emissions)
 -- end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
