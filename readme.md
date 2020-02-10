@@ -38,7 +38,8 @@ There are 3 map presets available:
 
 ![](doc/combustion-turbine.png)
 
-This has been balanced in a way that it's slightly worse than burning Coal at MK01 and then gets much better at higher MKs.  
+This has been balanced in a way that it's slightly worse than burning Coal at MK01 and then gets much better at higher MKs.
+Basically, Combustion Turbine MK01 produces more energy in comparison to boilers but at a cost of higher pollution.  
 We also changed some Combustion Mixture recipes, some were not viable and some were way too strong. Combustion Mixture recipe effectiveness still varies though.
 
 ### Fuels
@@ -48,7 +49,7 @@ We also changed some Combustion Mixture recipes, some were not viable and some w
 Example:
 - **Wood** - 125% pollution
 - **Coal** - 105% pollution
-- **Coke** - 85% pollutin
+- **Coke** - 85% pollution
 
 As you process further, you get less pollution on your fuels (this is not a general rule, we left some of them untouched at 100% pollution).
 We also made Fuel Rods viable, MK01 starts at 75% pollution and goes all the way down to 49% at MK05.
