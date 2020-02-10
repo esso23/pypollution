@@ -18,7 +18,7 @@ data.raw["map-gen-presets"]["default"]["pyanodon-default"] =
         enemy_attack_pollution_consumption_modifier = 1.0
       }
     },
-    order = "p"
+    order = "a"
 }
 
 data.raw["map-gen-presets"]["default"]["pyanodon-easy"] = 
@@ -41,7 +41,7 @@ data.raw["map-gen-presets"]["default"]["pyanodon-easy"] =
         enemy_attack_pollution_consumption_modifier = 1.0
       }
     },
-    order = "p"
+    order = "a"
 }
 
 data.raw["map-gen-presets"]["default"]["pyanodon-hard"] = 
@@ -64,7 +64,7 @@ data.raw["map-gen-presets"]["default"]["pyanodon-hard"] =
         enemy_attack_pollution_consumption_modifier = 1.0
       }
     },
-    order = "p"
+    order = "a"
 }
 
 -- log(serpent.block(data.raw["map-gen-presets"]["default"]))
