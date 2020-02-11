@@ -13,7 +13,7 @@ Main goals of the mod:
 
 ## Dependencies
 
-This mod is made to be played with entire pY Suite, so all these mods are required:
+This mod is made to be played with entire pY Suite (except for pY Alien Life), so all these mods are required:
 - Pyanodons Raw Ores
 - Pyanodons Fusion Energy
 - Pyanodons Coal Processing
