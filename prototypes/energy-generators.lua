@@ -37,6 +37,7 @@ SetRecipeResultAmount("fuelrodmk02-combustion", "combustion-mixture1", 180); -- 
 SetRecipeResultAmount("fuelrodmk04-combustion", "combustion-mixture1", 550); -- Default: 300
 SetRecipeResultAmount("fuelrodmk05-combustion", "combustion-mixture1", 650); -- Default: 300
 SetRecipeResultAmount("gasoline-combustion", "combustion-mixture1", 200);    -- Default: 150
+SetRecipeResultAmount("diborane-combustion", "combustion-mixture1", 120);	 -- Default: 150
 --SetRecipeResultAmount("xxxxxxx", "combustion-mixture1", xxxx);               -- Default: xxxxxx
 
 data.raw.recipe["hydrogen-combustion"].energy_required = 1 -- Default: 3
