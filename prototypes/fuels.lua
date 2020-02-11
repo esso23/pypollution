@@ -46,7 +46,7 @@ data.raw.fluid["hydrogen"].fuel_value = "0.015MJ"
 data.raw.fluid["hydrogen"].emissions_multiplier = "0.0"
 
 -- 500 hydrogen + 600 water + 5 gasoline = 50 pressured hydrogen + 600 Steam (60°C)
-data.raw.fluid["pressured-hydrogen"].fuel_value = "0.2MJ"
+data.raw.fluid["pressured-hydrogen"].fuel_value = "0.16MJ"
 data.raw.fluid["pressured-hydrogen"].emissions_multiplier = "0.0"
 
 

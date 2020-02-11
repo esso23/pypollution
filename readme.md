@@ -66,7 +66,7 @@ Example:
 - **Coke** - 85% pollution
 
 As you process further, you get less pollution on your fuels (this is not a general rule, we left some of them untouched at 100% pollution).  
-We also made Fuel Rods viable, MK01 starts at 75% pollution and goes all the way down to 49% at MK05.
+We also made Fuel Rods viable, MK01 starts at 75% pollution and goes all the way down to 49% at MK05.  
 Some liquid fuels have had their energy capacity reduced slightly.
 
 ### Hydrogen
@@ -75,7 +75,7 @@ Some liquid fuels have had their energy capacity reduced slightly.
 
 Until now you could use Hydrogen as an easy source of fuel, but that is no more. It is known fact that you need more energy to separate hydrogen from oxygen than the hydrogen provides (around 170 MJ to produce 1kg of Hydrogen which has 120 - 140 MJ of energy).  
 Also, 1kg of Hydrogen in gas state has ~12m3 so prepare your largest fluid tanks :)  
-One unit of hydrogen now has 15kJ (this is calculated from Electrolyzer MK01, so on higher MKs you can be energy-positive) down from 400kJ, but using Hydrogen no longer generates ANY pollution.  
+One unit of hydrogen now has 15kJ (this is calculated from Electrolyzer MK01, so on higher MKs you can be energy-positive) down from 400kJ, but using Hydrogen as fuel no longer generates ANY pollution.  
 You can also use Pressured Hydrogen as fuel if you want to save some space (you also get some extra energy value when you do this).
 
 ### Pollution-absorbing buildings
