@@ -21,7 +21,7 @@ This mod is made to be played with entire pY Suite, so all these mods are requir
 - Pyanodons Petroleum Handling
 - Pyanodons Industry
 
-Note: We have no plans to support soon to be released pY Alien Life right now. pyAL will introduce an entirely new level of difficulty which will make you go insane and we are not ready for such levels of pain (yet :).
+Note: We have no plans to support pY Alien Life right now. pyAL introduces an entirely new level of difficulty which will make you go insane and we are not ready for such levels of pain (yet :).
 
 ## Diving deeper
 
