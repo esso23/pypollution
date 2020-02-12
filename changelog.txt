@@ -1,21 +1,21 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.3
-Date: 2019.02.12
+Date: 2020.02.12
   Changes:
     - Prevent mod errors when some void recipes/fuels are not found in the game
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
-Date: 2019.02.12
+Date: 2020.02.12
   Changes:
     - Combustion Mixture recipe from Diborane is now less effective.
     - FuelRod MK01 now increases vehicle top speed/acceleration
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
-Date: 2019.02.11
+Date: 2020.02.11
   Info:
     - Release for Factorio v0.18
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
-Date: 2019.02.11
+Date: 2020.02.11
   Info:
     - Initial release.
