@@ -13,10 +13,24 @@ data.raw.item["coke"].fuel_emissions_multiplier = "0.85"
 -- Let's make FuelRods worth the investment
 -- Wee need to consider the pollution generated when mining and processing uranium and also when mining and processing other required ores
 data.raw.item["fuelrod-mk01"].fuel_emissions_multiplier = "0.75"
+data.raw.item["fuelrod-mk01"].fuel_acceleration_multiplier = "1.1"
+data.raw.item["fuelrod-mk01"].fuel_top_speed_multiplier = "1.05"
+
 data.raw.item["fuelrod-mk02"].fuel_emissions_multiplier = "0.70"
+--data.raw.item["fuelrod-mk02"].fuel_acceleration_multiplier = "1.2"
+--data.raw.item["fuelrod-mk02"].fuel_top_speed_multiplier = "1.2"
+
 data.raw.item["fuelrod-mk03"].fuel_emissions_multiplier = "0.64"
+--data.raw.item["fuelrod-mk03"].fuel_acceleration_multiplier = "1.5"
+--data.raw.item["fuelrod-mk03"].fuel_top_speed_multiplier = "1.2"
+
 data.raw.item["fuelrod-mk04"].fuel_emissions_multiplier = "0.57"
+--data.raw.item["fuelrod-mk04"].fuel_acceleration_multiplier = "2.0"
+--data.raw.item["fuelrod-mk04"].fuel_top_speed_multiplier = "1.2"
+
 data.raw.item["fuelrod-mk05"].fuel_emissions_multiplier = "0.49"
+--data.raw.item["fuelrod-mk05"].fuel_acceleration_multiplier = "2.3999999999999999"
+--data.raw.item["fuelrod-mk05"].fuel_top_speed_multiplier = "1.2"
 
 
 -- Burning wood produces more pollution than coal
