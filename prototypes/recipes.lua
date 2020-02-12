@@ -1,6 +1,13 @@
 -- Pumpjack
-data.raw.recipe["water-saline-pumpjack"].emissions_multiplier = 0.2
-data.raw.recipe["water-free"].emissions_multiplier = 0.1
+local pumpjackSaline = data.raw.recipe["water-saline-pumpjack"]
+if pumpjackSaline then
+	pumpjackSaline.emissions_multiplier = 0.2
+end
+
+local pumpjackWater = data.raw.recipe["water-free"]
+if pumpjackWater then
+	pumpjackWater.emissions_multiplier = 0.1
+end
 
 local function find_product_amount(recipe, product)
 	for _,v in pairs(recipe.results) do
