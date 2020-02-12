@@ -100,7 +100,7 @@ for k,v in pairs(drills) do
 	end
 end
 
--- Debug
+--Debug
 -- for k,v in pairs(data.raw["mining-drill"]) do
 	-- local power = v.mining_power or 1
 	-- log("[" .. v.name .. "]" .. ": Energy: " .. v.energy_usage .. "; Pollution: " .. v.energy_source.emissions_per_minute .. "; MiningSpeed: " .. v.mining_speed .. "; Mining Power: " .. power)

@@ -106,13 +106,13 @@ data.raw.fluid["propene"].fuel_value = "1MJ"
 -- Debug
 -- for _,v in pairs(data.raw.item) do
 	-- if v.fuel_value then
-		-- local emissions = v.fuel_emissions_multiplier or 1
-		-- log("[Item] "..v.name.." - "..v.fuel_value.."; emissions: "..emissions)
+		-- local emissions = (v.fuel_emissions_multiplier or 1) * 100
+		-- log("[Solid] "..v.name.." - "..v.fuel_value.."; Emissions: "..emissions.."%")
 	-- end
 -- end
 -- for _,v in pairs(data.raw.fluid) do
 	-- if v.fuel_value then
 		-- local emissions = v.emissions_multiplier or 1
-		-- log("[Fluid] "..v.name.." - "..v.fuel_value.."; emissions: "..emissions)
+		-- log("[Fluid] "..v.name.." - "..v.fuel_value.."; Emissions: "..emissions.."%")
 	-- end
 -- end
