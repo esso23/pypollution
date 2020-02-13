@@ -52,7 +52,7 @@ local assemblers =
 	{name = "gas-separator", coeff = 1.3},	-- Gas Processing Unit
 	{name = "nmf", coeff = 1.1},	-- Nano-Material Factory
 	{name = "fusion-reactor", coeff = 1.5},
-	{name = "py-heat-exchanger", coeff = 0.0},
+	{name = "py-heat-exchanger", coeff = 0.6},
 	{name = "auog-paddock", coeff = -0.2},
 	{name = "kicalk-plantation", coeff = -1.0},
 	{name = "zipir", coeff = -3.0},
