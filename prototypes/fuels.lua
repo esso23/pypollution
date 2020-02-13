@@ -115,10 +115,10 @@ SetFluidFuelData("pressured-hydrogen", "0.0", "0.16MJ")
 -- https://www.ucsusa.org/resources/environmental-impacts-natural-gas
 
 SetFluidFuelData("natural-gas", "0.8", "0.6MJ") -- 1MJ
-SetFluidFuelData("raw-gas", "0.70", nil)
-SetFluidFuelData("refined-natural-gas", "0.65", nil)
-SetFluidFuelData("purified-natural-gas", "0.60", nil)
-SetFluidFuelData("pure-natural-gas", "0.55", nil)
+SetFluidFuelData("raw-gas", "0.70", "0.4MJ") -- 0.2MJ
+SetFluidFuelData("refined-natural-gas", "0.65", "0.5MJ")-- 0.3MJ
+SetFluidFuelData("purified-natural-gas", "0.60", "0.6MJ")-- 0.4MJ
+SetFluidFuelData("pure-natural-gas", "0.55", "0.7MJ")-- 0.5MJ
 
 
 -- The main constituents are, by volume, about 50% hydrogen, 30% methane and 3% higher hydrocarbons, 7% carbon monoxide, 3% carbon dioxide and 7% nitrogen.
