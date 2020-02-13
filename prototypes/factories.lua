@@ -81,7 +81,7 @@ local assemblers =
 	{name = "drp", coeff = 2.0},	-- Direct Reduction Plant
 	{name = "heavy-oil-refinery", coeff = 2.0},
 	{name = "upgrader", coeff = 2.0},	-- Ionic Upgrader
-	{name = "cracker", coeff = 3.0},	-- Multi-Purpose Cracker
+	{name = "cracker", coeff = 2.0},	-- Multi-Purpose Cracker
 	{name = "reformer", coeff = 2.0},
 	{name = "rhe", coeff = 0.15},	-- Regenerative Heat Exchanger
 	{name = "tholin-atm", coeff = 1.0},
