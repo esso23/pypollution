@@ -55,28 +55,28 @@ end
 
 local fuelRodMk2 = data.raw.item["fuelrod-mk02"]
 if fuelRodMk2 then
-	fuelRodMk2.fuel_emissions_multiplier = "0.70"
+	fuelRodMk2.fuel_emissions_multiplier = "0.65"
 	--fuelRodMk2.fuel_acceleration_multiplier = "1.2"
 	--fuelRodMk2.fuel_top_speed_multiplier = "1.2"
 end
 
 local fuelRodMk3 = data.raw.item["fuelrod-mk03"]
 if fuelRodMk3 then
-	fuelRodMk3.fuel_emissions_multiplier = "0.64"
+	fuelRodMk3.fuel_emissions_multiplier = "0.53"
 	--fuelRodMk3.fuel_acceleration_multiplier = "1.5"
 	--fuelRodMk3.fuel_top_speed_multiplier = "1.2"
 end
 
 local fuelRodMk4 = data.raw.item["fuelrod-mk04"]
 if fuelRodMk4 then
-	fuelRodMk4.fuel_emissions_multiplier = "0.57"
+	fuelRodMk4.fuel_emissions_multiplier = "0.40"
 	--fuelRodMk4.fuel_acceleration_multiplier = "2.0"
 	--fuelRodMk4.fuel_top_speed_multiplier = "1.2"
 end
 
 local fuelRodMk5 = data.raw.item["fuelrod-mk05"]
 if fuelRodMk5 then
-	fuelRodMk5.fuel_emissions_multiplier = "0.49"
+	fuelRodMk5.fuel_emissions_multiplier = "0.25"
 	--fuelRodMk5.fuel_acceleration_multiplier = "2.3999999999999999"
 	--fuelRodMk5.fuel_top_speed_multiplier = "1.2"
 end
