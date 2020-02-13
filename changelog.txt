@@ -1,4 +1,22 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2020.02.13
+  Changes:
+    - Multi-Purpose Cracker now has 20 pollution per minute (down from 30) - similar to other oil-processing buildings
+    - pY's Heat Exchanger now pollutes again (there are 2 different Heat Exchangers in the game)
+    - Natural Gas, Raw Gas, Refined Natural Gas, Purified Natural Gas and Pure Natural Gas now have progressively lower pollution as you process further
+    - Natural Gas - now has 80% pollution and 1000 kJ fuel value
+    - Raw Gas - now has 60% pollution and 500 kJ fuel value
+    - Refined Natural Gas - now has 50% pollution and 600 kJ fuel value
+    - Purified Natural Gas - now has 35% pollution and 800 kJ fuel value
+    - Pure Natural Gas - now has 25% pollution and 1000 kJ fuel value
+    - FuelRods MK02 and higher now pollute even less
+    - FuelRod MK01 stays at 75% pollution
+    - FuelRod MK02 now has 65% pollution (down from 70%)
+    - FuelRod MK03 now has 53% pollution (down from 64%)
+    - FuelRod MK04 now has 40% pollution (down from 57%)
+    - FuelRod MK05 now has 25% pollution (down from 49%)
+---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 2020.02.12
   Bugfix:
