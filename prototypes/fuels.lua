@@ -114,11 +114,11 @@ SetFluidFuelData("pressured-hydrogen", "0.0", "0.16MJ")
 -- "Natural gas emits 50 to 60 percent less carbon dioxide (CO2) when combusted in a new, efficient natural gas power plant compared with emissions from a typical new coal plant [1]."
 -- https://www.ucsusa.org/resources/environmental-impacts-natural-gas
 
-SetFluidFuelData("natural-gas", "0.8", "0.5MJ") -- 1MJ
-SetFluidFuelData("raw-gas", "0.9", nil)
-SetFluidFuelData("refined-natural-gas", "0.85", nil)
-SetFluidFuelData("purified-natural-gas", "0.8", nil)
-SetFluidFuelData("pure-natural-gas", "0.7", nil)
+SetFluidFuelData("natural-gas", "0.8", "0.6MJ") -- 1MJ
+SetFluidFuelData("raw-gas", "0.70", nil)
+SetFluidFuelData("refined-natural-gas", "0.65", nil)
+SetFluidFuelData("purified-natural-gas", "0.60", nil)
+SetFluidFuelData("pure-natural-gas", "0.55", nil)
 
 
 -- The main constituents are, by volume, about 50% hydrogen, 30% methane and 3% higher hydrocarbons, 7% carbon monoxide, 3% carbon dioxide and 7% nitrogen.
