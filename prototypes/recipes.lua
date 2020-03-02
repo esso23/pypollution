@@ -44,32 +44,34 @@ set_emissions_multiplier("log7", "log", 80, 3)
 set_emissions_multiplier("log8", "log", 80, 3)
 set_emissions_multiplier("log7-2", "log", 80, 3)
 
--- Moondrop
-set_emissions_multiplier("methane", "methane", 20, 30)
-set_emissions_multiplier("methane-co2", "methane", 20, 30)
-set_emissions_multiplier("methane-py-fertilizer", "methane", 20, 30)
+if not mods["pyalienlife"] then
+	-- Moondrop
+	set_emissions_multiplier("methane", "methane", 20, 30)
+	set_emissions_multiplier("methane-co2", "methane", 20, 30)
+	set_emissions_multiplier("methane-py-fertilizer", "methane", 20, 30)
 
--- Kicalk
-set_emissions_multiplier("raw-fiber", "raw-fiber", 180, 24)
-set_emissions_multiplier("raw-fiber2", "raw-fiber", 180, 24)
-set_emissions_multiplier("raw-fiber3", "raw-fiber", 180, 24)
-set_emissions_multiplier("raw-fiber4", "raw-fiber", 180, 24)
+	-- Kicalk
+	set_emissions_multiplier("raw-fiber", "raw-fiber", 180, 24)
+	set_emissions_multiplier("raw-fiber2", "raw-fiber", 180, 24)
+	set_emissions_multiplier("raw-fiber3", "raw-fiber", 180, 24)
+	set_emissions_multiplier("raw-fiber4", "raw-fiber", 180, 24)
 
--- Ulric
-set_emissions_multiplier("bonemeal", "bonemeal", 45, 5)
-set_emissions_multiplier("bonemeal-salt", "bonemeal", 45, 5)
-set_emissions_multiplier("bonemeal2", "bonemeal", 45, 5)
-set_emissions_multiplier("bonemeal4", "bonemeal", 45, 5)
+	-- Ulric
+	set_emissions_multiplier("bonemeal", "bonemeal", 45, 5)
+	set_emissions_multiplier("bonemeal-salt", "bonemeal", 45, 5)
+	set_emissions_multiplier("bonemeal2", "bonemeal", 45, 5)
+	set_emissions_multiplier("bonemeal4", "bonemeal", 45, 5)
 
--- Mukmoux
-set_emissions_multiplier("mukmoux-fat", "mukmoux-fat", 60, 15)
-set_emissions_multiplier("mukmoux-fat-salt", "mukmoux-fat", 60, 15)
-set_emissions_multiplier("mukmoux-fat2", "mukmoux-fat", 60, 15)
-set_emissions_multiplier("mukmoux-fat3", "mukmoux-fat", 60, 15)
+	-- Mukmoux
+	set_emissions_multiplier("mukmoux-fat", "mukmoux-fat", 60, 15)
+	set_emissions_multiplier("mukmoux-fat-salt", "mukmoux-fat", 60, 15)
+	set_emissions_multiplier("mukmoux-fat2", "mukmoux-fat", 60, 15)
+	set_emissions_multiplier("mukmoux-fat3", "mukmoux-fat", 60, 15)
 
--- Guar
-set_emissions_multiplier("guar-01", "guar", 80, 5)
-set_emissions_multiplier("guar-02", "guar", 80, 5)
-set_emissions_multiplier("guar-03", "guar", 80, 5)
-set_emissions_multiplier("guar-04", "guar", 80, 5)
-set_emissions_multiplier("guar-05", "guar", 80, 5)
+	-- Guar
+	set_emissions_multiplier("guar-01", "guar", 80, 5)
+	set_emissions_multiplier("guar-02", "guar", 80, 5)
+	set_emissions_multiplier("guar-03", "guar", 80, 5)
+	set_emissions_multiplier("guar-04", "guar", 80, 5)
+	set_emissions_multiplier("guar-05", "guar", 80, 5)
+end
