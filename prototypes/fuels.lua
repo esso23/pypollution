@@ -33,10 +33,10 @@ local function SetSolidFuelData(name, emissions, fuelValue)
 end
 
 -- Unprocessed fuels cause more pollution (incentive for processing)
-SetSolidFuelData("coal", "1.05", nil)
-SetSolidFuelData("raw-coal", "1.2", nil)
+SetSolidFuelData("coal", "1.0", nil)
+SetSolidFuelData("raw-coal", "1.05", nil)
 SetSolidFuelData("coal-dust", "1.2", nil)
-SetSolidFuelData("crushed-coal", "1.2", nil)
+SetSolidFuelData("crushed-coal", "1.05", nil)
 SetFluidFuelData("crude-oil", "1.5", nil)
 SetFluidFuelData("tar", "1.5", nil)
 
