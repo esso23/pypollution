@@ -1,3 +1,8 @@
+Version: 0.2.3
+Date: 2020.03.02
+  Changes:
+    - Reduced fuel pollution on Raw Coal (Coal has been removed in latest version of pyRawOres)
+---------------------------------------------------------------------------------------------------
 Version: 0.2.2
 Date: 2020.02.28
   Changes:
