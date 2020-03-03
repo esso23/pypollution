@@ -7,5 +7,5 @@
   "contact": "",
   "homepage": "",
   "description": "Pollution, Energy and Fuel balance for Pyanodon's Mod Suite.",
-  "dependencies": ["pycoalprocessing", "pyindustry", "pyfusionenergy", "pyhightech", "pyrawores", "pypetroleumhandling"]
+  "dependencies": ["stdlib >= 1.4.1", "pycoalprocessing", "pyindustry", "pyfusionenergy", "pyhightech", "pyrawores", "pypetroleumhandling"]
 }

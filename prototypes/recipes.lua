@@ -1,3 +1,5 @@
+require("__stdlib__/stdlib/data/data").Util.create_data_globals()
+
 -- Pumpjack
 local pumpjackSaline = data.raw.recipe["water-saline-pumpjack"]
 if pumpjackSaline then
@@ -75,3 +77,9 @@ if not mods["pyalienlife"] then
 	set_emissions_multiplier("guar-04", "guar", 80, 5)
 	set_emissions_multiplier("guar-05", "guar", 80, 5)
 end
+
+-- Solar Panel balancing
+RECIPE("solar-panel"):set_fields {energy_required = 60}
+RECIPE("solar-panel"):remove_ingredient("copper-plate"):add_ingredient({type = "item", name = "copper-plate", amount = 12})
+RECIPE("solar-panel"):remove_ingredient("steel-plate"):add_ingredient({type = "item", name = "steel-plate", amount = 20})
+RECIPE("solar-panel"):remove_ingredient("pyrite"):add_ingredient({type = "item", name = "pyrite", amount = 10})
