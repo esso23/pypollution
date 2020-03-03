@@ -1,3 +1,15 @@
+Version: 0.3.0
+Date: 2020.03.03
+  Info:
+    - Added full support for pyAlienLife
+  Changes:
+    - Rebalanced pollution on factories
+    - Most factories have had their pollution/min. reduced
+    - Some pollution-absorbing buildings now absorb less
+    - Early game mandatory buildings now have much lower pollution/min. (like Destructive Distillation Column) to make pyAL start possible
+    - Map presets modified to work better in pyAlienLife (some settings are different when pyAlienLife is not installed)
+    - Solar Panels are now much more expensive and take much longer to craft to compensate for their high value in long games
+---------------------------------------------------------------------------------------------------
 Version: 0.2.3
 Date: 2020.03.02
   Changes:
