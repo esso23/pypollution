@@ -35,7 +35,7 @@ end
 
 -- Better recipes are absorbing more pollution
 
--- Botanical Nursery
+-- Logs
 set_emissions_multiplier("log1", "log", 80, 3)
 set_emissions_multiplier("log2", "log", 80, 3)
 set_emissions_multiplier("log3", "log", 80, 3)
