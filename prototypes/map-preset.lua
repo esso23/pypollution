@@ -69,7 +69,11 @@ data.raw["map-gen-presets"]["default"]["pyanodon-hard"] =
 
 if mods["pyalienlife"] then
 	data.raw["map-gen-presets"]["default"]["pyanodon-easy"]["advanced_settings"]["enemy_evolution"].pollution_factor = 1e-07
+	
+	data.raw["map-gen-presets"]["default"]["pyanodon-default"]["advanced_settings"]["enemy_evolution"].time_factor = 4e-07
 	data.raw["map-gen-presets"]["default"]["pyanodon-default"]["advanced_settings"]["enemy_evolution"].pollution_factor = 2e-07
+	
+	data.raw["map-gen-presets"]["default"]["pyanodon-hard"]["advanced_settings"]["enemy_evolution"].time_factor = 8e-07
 	data.raw["map-gen-presets"]["default"]["pyanodon-hard"]["advanced_settings"]["enemy_evolution"].pollution_factor = 3e-07
 end
 
