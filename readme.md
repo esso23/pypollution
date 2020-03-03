@@ -31,20 +31,26 @@ Note: We have no plans to support pY Alien Life right now. pyAL introduces an en
 
 There are 3 map presets available:
 - **Easy** - For newbies and people who break under pressure (:D)
-    - Pollution factor: 2
+    - Pollution factor: 2 (1 with pyAlienLife)
     - Destroy factor: 50
     - Time factor: 0
     - Starting area: 133%
+    - Absorbtion modifier: 150%
+    - Attack cost modifier: 150%
 - **Default**
-    - Pollution factor: 3
+    - Pollution factor: 3 (2 with pyAlienLife)
     - Destroy factor: 75
     - Time factor: 5
     - Starting area: 133%
-- **Hard** - For those who like some challenge or for pY professionals, feel free to add more if you feel like it
-    - Pollution factor: 4
+    - Absorbtion modifier: 125%
+    - Attack cost modifier: 125%
+- **Hard** - For those who like some challenge or for pY professionals, feel free to add more if you feel like it.
+    - Pollution factor: 4 (3 with pyAlienLife)
     - Destroy factor: 100
     - Time factor: 10
     - Starting area: 133%
+    - Absorbtion modifier: 100%
+    - Attack cost modifier: 100%
 
 
 
