@@ -42,6 +42,11 @@ local drills =
 	{name = "phosphate-mine-02", coeff = 1.0},
 }
 
+if mods["pyalienlife"] then
+	table.insert(drills, { name = "collector", coeff = 1.0 })
+	table.insert(drills, { name = "harvester", coeff = 0.1 })
+end
+
 data.raw["mining-drill"]["oil-derrick-mk01"].energy_usage = "150kW"
 
 local function ends_with(str, ending)
