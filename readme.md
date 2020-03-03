@@ -40,14 +40,14 @@ There are 3 map presets available:
 - **Default**
     - Pollution factor: 3 (2 with pyAlienLife)
     - Destroy factor: 75
-    - Time factor: 5
+    - Time factor: 5 (4 with pyAlienLife)
     - Starting area: 133%
     - Absorbtion modifier: 125%
     - Attack cost modifier: 125%
 - **Hard** - For those who like some challenge or for pY professionals, feel free to add more if you feel like it.
     - Pollution factor: 4 (3 with pyAlienLife)
     - Destroy factor: 100
-    - Time factor: 10
+    - Time factor: 10 (8 with pyAlienLife)
     - Starting area: 133%
     - Absorbtion modifier: 100%
     - Attack cost modifier: 100%
