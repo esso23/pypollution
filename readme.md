@@ -100,7 +100,7 @@ You can also use Pressured Hydrogen as fuel if you want to save some space (you 
 
 ## Pollution-absorbing buildings
 
-**Note: This is feature is not available when pyAlienLife is installed**
+**Note: This feature is not available when pyAlienLife is installed**
 
 ![](doc/botanical-nursery.png)
 
@@ -122,7 +122,7 @@ Why? Previously you were basically penalized for using more effective recipes, s
 
 Note: Amount of products is also taken into consideration.
 
-## Special thanks
+# Special thanks
 
 To [Pyanodon](https://github.com/pyanodon) for creating this great mod [suite](https://mods.factorio.com/user/pyanodon).  
 You can support his work at his [Patreon](https://www.patreon.com/pyanodon/posts).

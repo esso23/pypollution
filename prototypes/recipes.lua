@@ -33,20 +33,20 @@ local function set_emissions_multiplier(recipeName, productName, baseEnergy, bas
 	--log(recipeName.." ["..productName.."="..amountProduced.."] "..recipe.emissions_multiplier.."   ["..amountCoefficient.."]  ")
 end
 
--- Better recipes are absorbing more pollution
-
--- Logs
-set_emissions_multiplier("log1", "log", 80, 3)
-set_emissions_multiplier("log2", "log", 80, 3)
-set_emissions_multiplier("log3", "log", 80, 3)
-set_emissions_multiplier("log4", "log", 80, 3)
-set_emissions_multiplier("log5", "log", 80, 3)
-set_emissions_multiplier("log6", "log", 80, 3)
-set_emissions_multiplier("log7", "log", 80, 3)
-set_emissions_multiplier("log8", "log", 80, 3)
-set_emissions_multiplier("log7-2", "log", 80, 3)
-
 if not mods["pyalienlife"] then
+	-- Better recipes are absorbing more pollution
+
+	-- Logs
+	set_emissions_multiplier("log1", "log", 80, 3)
+	set_emissions_multiplier("log2", "log", 80, 3)
+	set_emissions_multiplier("log3", "log", 80, 3)
+	set_emissions_multiplier("log4", "log", 80, 3)
+	set_emissions_multiplier("log5", "log", 80, 3)
+	set_emissions_multiplier("log6", "log", 80, 3)
+	set_emissions_multiplier("log7", "log", 80, 3)
+	set_emissions_multiplier("log8", "log", 80, 3)
+	set_emissions_multiplier("log7-2", "log", 80, 3)
+
 	-- Moondrop
 	set_emissions_multiplier("methane", "methane", 20, 30)
 	set_emissions_multiplier("methane-co2", "methane", 20, 30)
