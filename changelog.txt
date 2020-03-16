@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2020.03.16
+  Changes:
+    - Increased Ralesia Plantation's pollution absorption from -4/s to -15/m (pyAL only)
+    - Reduced Sap Extractor's pollution absorption from -10/m to -5/m (pyAL only)
+    - Reduced Moondrop Greenhouse's pollution absorption from -25/m to -20/m (pyAL only)
+    - Reduced Moss Farm's pollution absorption from -20/m to -15/m (pyAL only)
+    - Reduced Seaweed Crop Plantation's pollution absorption from -20/m to -10/m (pyAL only)
+    - Reduced Atomizer's pollution generation from -10/m to -4/m (pyAL only)
+    - pyAL added as optional dependency
+---------------------------------------------------------------------------------------------------
 Version: 0.3.1
 Date: 2020.03.09
   Changes:
