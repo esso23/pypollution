@@ -98,15 +98,17 @@ local assemblers =
 }
 
 if mods["pyalienlife"] then
-	table.insert(assemblers, { name = "atomizer", coeff = 1.0 })
+	table.insert(assemblers, { name = "atomizer", coeff = 0.4 })
 	table.insert(assemblers, { name = "fwf", coeff = -2.0 })
-	table.insert(assemblers, { name = "sap-extractor", coeff = -1.0 })
-	table.insert(assemblers, { name = "moss-farm", coeff = -2.0 })
-	table.insert(assemblers, { name = "seaweed-crop", coeff = -2.0 })
+	table.insert(assemblers, { name = "sap-extractor", coeff = -0.5 })
+	table.insert(assemblers, { name = "moss-farm", coeff = -1.5 })
+	table.insert(assemblers, { name = "seaweed-crop", coeff = -1.0 })
 	table.insert(assemblers, { name = "slaughterhouse", coeff = 1.0 })
 	table.insert(assemblers, { name = "fawogae-plantation", coeff = -1.5 })
 	table.insert(assemblers, { name = "botanical-nursery", coeff = -2.0 })
 	table.insert(assemblers, { name = "guar-gum-plantation", coeff = -2.0 })
+	table.insert(assemblers, { name = "ralesia-plantation", coeff = -1.5 })
+	table.insert(assemblers, { name = "moondrop-greenhouse", coeff = -2.0 })
 else
 	table.insert(assemblers, { name = "auog-paddock", coeff = -0.2 })
 	table.insert(assemblers, { name = "ulric-corral", coeff = -1.0 })
