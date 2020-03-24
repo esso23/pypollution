@@ -1,8 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 2020.03.24
+  Changes:
+    - Modified some void recipes to generate 0 pollution: Purest Nitrogen Gas, Alien Bacteria, Phytoplankton, Xyhiphoe Blood, Cold Air, Cold Clean Air, Liquid Nitrogen & Arthropod Blood
+---------------------------------------------------------------------------------------------------
 Version: 0.3.2
 Date: 2020.03.16
   Changes:
-    - Increased Ralesia Plantation's pollution absorption from -4/s to -15/m (pyAL only)
+    - Increased Ralesia Plantation's pollution absorption from -4/m to -15/m (pyAL only)
     - Reduced Sap Extractor's pollution absorption from -10/m to -5/m (pyAL only)
     - Reduced Moondrop Greenhouse's pollution absorption from -25/m to -20/m (pyAL only)
     - Reduced Moss Farm's pollution absorption from -20/m to -15/m (pyAL only)
