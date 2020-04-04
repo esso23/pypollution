@@ -125,6 +125,18 @@ else
 	table.insert(assemblers, { name = "ralesia-plantation", coeff = -1.5 })
 end
 
+if mods["pyalienlife"] then
+	if settings.startup["pypollution-enable-glassworks-fix"] and settings.startup["pypollution-enable-glassworks-fix"].value == true then
+		log("pypollution-enable-glassworks-fix ENABLED.")
+		data.raw["assembling-machine"]["glassworks-mk01"].energy_usage = "1MW"
+		data.raw["assembling-machine"]["glassworks-mk02"].energy_usage = "1MW"
+		data.raw["assembling-machine"]["glassworks-mk03"].energy_usage = "1MW"
+		data.raw["assembling-machine"]["glassworks-mk04"].energy_usage = "1MW"
+	else
+		log("pypollution-enable-glassworks-fix DISABLED.")
+	end
+end
+
 local function ends_with(str, ending)
    return ending == "" or str:sub(-#ending) == ending
 end
