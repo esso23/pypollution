@@ -21,7 +21,16 @@ end
 
 local function set_emissions_multiplier(recipeName, productName, baseEnergy, baseAmount)
 	local recipe = data.raw.recipe[recipeName]
+	
+	if recipe == nil then
+		return
+	end
+	
 	local amountProduced = find_product_amount(recipe, productName)
+	
+	if amountProduced == nil then
+		return
+	end
 
 	recipe.emissions_multiplier = (baseEnergy - ((baseEnergy - recipe.energy_required) / 2)) / recipe.energy_required
 
