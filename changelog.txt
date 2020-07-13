@@ -1,6 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2020.07.12
+  Changes:
+    - Nerfing Biomass which is stupidly strong as a fuel and can be made from basically anything
+    - Biomass now pollutes 10% (slightly more than Raw Coal) more and has 2MJ fuel value (down from 4MJ)
+    - Compost Plants now generate more pollution
+    - All Biomass recipes now take longer to craft (composting takes time, right?)
+    - Crafting Biomass from Oil products is now significantly less effective (why is it even possible?)
+    - Some recipes like Sap/Wood/Logs/Moss/Seaweed (easily obtainable stuff) to Biomass have been nerfed
+---------------------------------------------------------------------------------------------------
 Version: 0.3.4
-Date: 2020.04.24
+Date: 2020.04.04
   Bugfix:
     - Mod compatibility fix
   Changes:
