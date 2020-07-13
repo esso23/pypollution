@@ -151,6 +151,8 @@ SetFluidFuelData("methane", nil, "0.4MJ") -- "0.8MJ" - This is way too easy to g
 
 SetFluidFuelData("propene", "0.90", "1MJ")
 
+SetSolidFuelData("biomass", "1.10", "2MJ")
+
 --Debug
 -- for _,v in pairs(data.raw.item) do
 	-- if v.fuel_value then
