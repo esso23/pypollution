@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 2020.07.14
+  Changes:
+    - Reducing Biomass' pollution from 110% to 105% (equal to Raw Coal)
+    - Compost Plant's pollution per minute remains the same at all MKs (as opposed to other buildings for which it increases) and has been reduced from 10/m to 5/m
+    - Compost Plant's energy consumption has been significantly reduced (down from ~413kW to 50kW at MK01)
+    - Increased duration of all composting recipes to 30 seconds (up from 6 seconds in v0.4.0 and 3 seconds default)
+    - Ethanol can now be used as fuel
+---------------------------------------------------------------------------------------------------
 Version: 0.4.0
 Date: 2020.07.12
   Changes:
@@ -29,7 +38,7 @@ Date: 2020.03.16
     - Reduced Moondrop Greenhouse's pollution absorption from -25/m to -20/m (pyAL only)
     - Reduced Moss Farm's pollution absorption from -20/m to -15/m (pyAL only)
     - Reduced Seaweed Crop Plantation's pollution absorption from -20/m to -10/m (pyAL only)
-    - Reduced Atomizer's pollution generation from -10/m to -4/m (pyAL only)
+    - Reduced Atomizer's pollution generation from 10/m to 4/m (pyAL only)
     - pyAL added as optional dependency
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.1
