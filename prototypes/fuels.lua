@@ -151,6 +151,8 @@ SetFluidFuelData("methane", nil, "0.4MJ") -- "0.8MJ" - This is way too easy to g
 
 SetFluidFuelData("propene", "0.90", "1MJ")
 
+SetFluidFuelData("ethanol", "0.90", "0.5MJ")
+
 SetSolidFuelData("biomass", "1.05", "2MJ")
 
 --Debug
