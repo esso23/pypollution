@@ -136,10 +136,14 @@ if mods["pyalienlife"] then
 		log("pypollution-enable-glassworks-fix DISABLED.")
 	end
 	
-	data.raw["furnace"]["compost-plant-mk01"].energy_source.emissions_per_minute = 10
-	data.raw["furnace"]["compost-plant-mk02"].energy_source.emissions_per_minute = 12
-	data.raw["furnace"]["compost-plant-mk03"].energy_source.emissions_per_minute = 15
-	data.raw["furnace"]["compost-plant-mk04"].energy_source.emissions_per_minute = 20
+	data.raw["furnace"]["compost-plant-mk01"].energy_source.emissions_per_minute = 5
+	data.raw["furnace"]["compost-plant-mk01"].energy_usage = "50kW"
+	data.raw["furnace"]["compost-plant-mk02"].energy_source.emissions_per_minute = 5
+	data.raw["furnace"]["compost-plant-mk02"].energy_usage = "90kW"
+	data.raw["furnace"]["compost-plant-mk03"].energy_source.emissions_per_minute = 5
+	data.raw["furnace"]["compost-plant-mk03"].energy_usage = "120kW"
+	data.raw["furnace"]["compost-plant-mk04"].energy_source.emissions_per_minute = 5
+	data.raw["furnace"]["compost-plant-mk04"].energy_usage = "140kW"
 end
 
 local function ends_with(str, ending)

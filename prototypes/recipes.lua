@@ -122,7 +122,7 @@ end
 -- Energy fix for Biomass recipes
 for _,v in pairs(data.raw.recipe) do
 	if (v.subgroup == "py-alienlife-compost") then
-		v.energy_required = 6
+		v.energy_required = 30
 	end
 end
 
