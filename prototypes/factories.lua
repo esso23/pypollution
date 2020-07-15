@@ -137,13 +137,13 @@ if mods["pyalienlife"] then
 	end
 	
 	data.raw["furnace"]["compost-plant-mk01"].energy_source.emissions_per_minute = 5
-	data.raw["furnace"]["compost-plant-mk01"].energy_usage = "50kW"
+	data.raw["furnace"]["compost-plant-mk01"].energy_usage = "100kW"
 	data.raw["furnace"]["compost-plant-mk02"].energy_source.emissions_per_minute = 5
-	data.raw["furnace"]["compost-plant-mk02"].energy_usage = "90kW"
+	data.raw["furnace"]["compost-plant-mk02"].energy_usage = "180kW"
 	data.raw["furnace"]["compost-plant-mk03"].energy_source.emissions_per_minute = 5
-	data.raw["furnace"]["compost-plant-mk03"].energy_usage = "120kW"
+	data.raw["furnace"]["compost-plant-mk03"].energy_usage = "240kW"
 	data.raw["furnace"]["compost-plant-mk04"].energy_source.emissions_per_minute = 5
-	data.raw["furnace"]["compost-plant-mk04"].energy_usage = "140kW"
+	data.raw["furnace"]["compost-plant-mk04"].energy_usage = "280kW"
 end
 
 local function ends_with(str, ending)

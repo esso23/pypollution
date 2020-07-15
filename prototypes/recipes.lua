@@ -19,6 +19,38 @@ local function find_product_amount(recipe, product)
 	end
 end
 
+local function set_recipe_ingredient_cost(recipeName, coeff)
+	local recipe = data.raw.recipe[recipeName]
+	
+	if recipe == nil then
+		log(recipeName .. " not found int set_recipe_ingredient_cost.")
+		return
+	end
+	
+	for _,v in pairs(recipe.ingredients) do
+		if v.name then
+			v.amount = math.floor(v.amount * coeff)
+			if v.amount < 1 then
+				v.amount = 1
+			end
+		else
+			v[2] = math.floor(v[2] * coeff)
+			if v[2] < 1 then
+				v[2] = 1
+			end
+		end
+		
+		--RECIPE(recipeName):remove_ingredient("copper-plate"):add_ingredient({type = "item", name = "copper-plate", amount = 12})
+	end
+end
+
+if mods["pyalienlife"] then
+	set_recipe_ingredient_cost("compost-plant-mk01", 0.50)
+	set_recipe_ingredient_cost("compost-plant-mk02", 0.50)
+	set_recipe_ingredient_cost("compost-plant-mk03", 0.50)
+	set_recipe_ingredient_cost("compost-plant-mk04", 0.50)
+end
+
 local function set_emissions_multiplier(recipeName, productName, baseEnergy, baseAmount)
 	local recipe = data.raw.recipe[recipeName]
 	
@@ -122,7 +154,7 @@ end
 -- Energy fix for Biomass recipes
 for _,v in pairs(data.raw.recipe) do
 	if (v.subgroup == "py-alienlife-compost") then
-		v.energy_required = 30
+		v.energy_required = 10
 	end
 end
 
@@ -140,9 +172,9 @@ if mods["pyalienlife"] then
 	update_biomass_recipe("biomass-moss", nil, "moss", nil, "biomass", 10) -- 3 moss 3 13
 	update_biomass_recipe("biomass-wood-seedling", nil, "wood-seedling", nil, "biomass", nil) -- 3 wood-seedling 10 10
 	update_biomass_recipe("biomass-wood-seeds", nil, "wood-seeds", nil, "biomass", nil) -- 3 wood-seeds 4 30
-	update_biomass_recipe("biomass-seaweed", nil, "seaweed", 10, "biomass", 10) -- 3 seaweed 10 20
+	update_biomass_recipe("biomass-seaweed", nil, "seaweed", nil, "biomass", 10) -- 3 seaweed 10 20
 	update_biomass_recipe("biomass-ralesia-seeds", nil, "ralesia-seeds", nil, "biomass", nil) -- 3 ralesia-seeds 3 4
-	update_biomass_recipe("biomass-saps", nil, "saps", 10, "biomass", 10) -- 3 saps 10 23
+	update_biomass_recipe("biomass-saps", nil, "saps", nil, "biomass", 10) -- 3 saps 10 23
 	update_biomass_recipe("biomass-sap-tree", nil, "sap-tree", nil, "biomass", nil) -- 3 sap-tree 1 15
 	update_biomass_recipe("biomass-sap-tree-mk02", nil, "sap-tree-mk02", nil, "biomass", nil) -- 3 sap-tree-mk02 1 15
 	update_biomass_recipe("biomass-sap-tree-mk03", nil, "sap-tree-mk03", nil, "biomass", nil) -- 3 sap-tree-mk03 1 25
@@ -566,7 +598,7 @@ if mods["pyalienlife"] then
 	update_biomass_recipe("biomass-myoglobin", nil, "myoglobin", nil, "biomass", nil) -- 3 myoglobin 1 1
 	update_biomass_recipe("biomass-collagen", nil, "collagen", nil, "biomass", nil) -- 3 collagen 1 5
 	update_biomass_recipe("biomass-blood-meal", nil, "blood-meal", nil, "biomass", nil) -- 3 blood-meal 1 2
-	update_biomass_recipe("biomass-blood", nil, "blood", 10, "biomass", 3) -- 3 blood 10 5
+	update_biomass_recipe("biomass-blood", nil, "blood", nil, "biomass", nil) -- 3 blood 10 5
 	update_biomass_recipe("biomass-tar", nil, "tar", 40, "biomass", 1) -- 3 tar 20 4
 	update_biomass_recipe("biomass-crude-oil", nil, "crude-oil", 30, "biomass", 1) -- 3 crude-oil 20 5
 	update_biomass_recipe("biomass-aromatics", nil, "aromatics", 10, "biomass", 1) -- 3 aromatics 10 5
@@ -582,7 +614,7 @@ if mods["pyalienlife"] then
 	update_biomass_recipe("biomass-casein-solution", nil, "casein-solution", nil, "biomass", nil) -- 3 casein-solution 10 10
 	update_biomass_recipe("biomass-chelator", nil, "chelator", nil, "biomass", nil) -- 3 chelator 10 12
 	update_biomass_recipe("biomass-depolymerized-organics", nil, "depolymerized-organics", nil, "biomass", nil) -- 3 depolymerized-organics 10 15
-	update_biomass_recipe("biomass-ethanol", nil, "ethanol", 20, "biomass", 1) -- 3 ethanol 10 5
+	update_biomass_recipe("biomass-ethanol", nil, "ethanol", nil, "biomass", 1) -- 3 ethanol 10 5
 	update_biomass_recipe("biomass-fetal-serum", nil, "fetal-serum", nil, "biomass", nil) -- 3 fetal-serum 10 4
 	update_biomass_recipe("biomass-fish-oil", nil, "fish-oil", nil, "biomass", nil) -- 3 fish-oil 10 8
 	update_biomass_recipe("biomass-flavonoids", nil, "flavonoids", nil, "biomass", nil) -- 3 flavonoids 10 15
