@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.2
+Date: 2020.07.15
+  Changes:
+    - Reducing crafting cost of Compost Plants (MK1 - MK4) to 50% of the original amount
+    - Reduding duration of compost recipes to 10 seconds (30 seconds was way too high considering the size of the building)
+---------------------------------------------------------------------------------------------------
 Version: 0.4.1
 Date: 2020.07.14
   Changes:

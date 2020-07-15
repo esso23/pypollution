@@ -39,8 +39,6 @@ local function set_recipe_ingredient_cost(recipeName, coeff)
 				v[2] = 1
 			end
 		end
-		
-		--RECIPE(recipeName):remove_ingredient("copper-plate"):add_ingredient({type = "item", name = "copper-plate", amount = 12})
 	end
 end
 
