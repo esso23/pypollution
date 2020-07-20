@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.3
+Date: 2020.07.20
+  Changes:
+    - Most Biomass recipes have been rebalanced, notably Kicalk and some other exploitable ones (see forum post for a complete list of changes)
+---------------------------------------------------------------------------------------------------
 Version: 0.4.2
 Date: 2020.07.15
   Changes:
