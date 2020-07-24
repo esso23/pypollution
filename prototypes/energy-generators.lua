@@ -28,16 +28,30 @@ function SetRecipeResultAmount(recipe, result, newAmount)
 end
 
 SetRecipeResultAmount("coalgas-combustion", "combustion-mixture1", 100);     -- Default: 150
+SetRecipeResultAmount("coalgas-combustion-biomass", "combustion-mixture1", 100);     -- Default: 150
+
 SetRecipeResultAmount("coalslurry-combustion", "combustion-mixture1", 100);  -- Default: 150
+SetRecipeResultAmount("coalslurry-combustion-biomass", "combustion-mixture1", 100);  -- Default: 150
+
 SetRecipeResultAmount("tall-oil-combustion", "combustion-mixture1", 200);    -- Default: 150
+SetRecipeResultAmount("tall-oil-combustion-biomass", "combustion-mixture1", 200);    -- Default: 150
+
 SetRecipeResultAmount("hydrogen-combustion", "combustion-mixture1", 40);     -- Default: 150
-SetRecipeResultAmount("syngas-combustion", "combustion-mixture1", 120);      -- Default: 150
+SetRecipeResultAmount("hydrogen-combustion-biomass", "combustion-mixture1", 40);     -- Default: 150
+
+SetRecipeResultAmount("syngas-combustion", "combustion-mixture1", 125);      -- Default: 150
+SetRecipeResultAmount("syngas-combustion-biomass", "combustion-mixture1", 125);      -- Default: 150
+
 SetRecipeResultAmount("gasoline-combustion", "combustion-mixture1", 200);    -- Default: 150
+SetRecipeResultAmount("gasoline-combustion-biomass", "combustion-mixture1", 200);    -- Default: 150
+
+SetRecipeResultAmount("diborane-combustion", "combustion-mixture1", 120);	 -- Default: 150
+SetRecipeResultAmount("diborane-combustion-biomass", "combustion-mixture1", 120);	 -- Default: 150
+
 SetRecipeResultAmount("fuelrodmk02-combustion", "combustion-mixture1", 180); -- Default: 300
 SetRecipeResultAmount("fuelrodmk04-combustion", "combustion-mixture1", 550); -- Default: 300
 SetRecipeResultAmount("fuelrodmk05-combustion", "combustion-mixture1", 650); -- Default: 300
-SetRecipeResultAmount("gasoline-combustion", "combustion-mixture1", 200);    -- Default: 150
-SetRecipeResultAmount("diborane-combustion", "combustion-mixture1", 120);	 -- Default: 150
+
 --SetRecipeResultAmount("xxxxxxx", "combustion-mixture1", xxxx);               -- Default: xxxxxx
 
 data.raw.recipe["hydrogen-combustion"].energy_required = 1 -- Default: 3
