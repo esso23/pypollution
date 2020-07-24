@@ -17,16 +17,6 @@ data.raw["generator"]["gasturbinemk03"].effectivity = 1.1 -- Default: 1.47
 
 -- Combustion Mixture recipes balancing
 
-function SetRecipeResultAmount(recipe, result, newAmount)
-  local results = data.raw.recipe[recipe].results
-  for _,v in pairs(results) do
-    if (v.name == result) then
-	  v.amount = newAmount
-	  --log("Setting amount to " .. newAmount .. " on recipe's " .. recipe .. " result " .. result)
-	end
-  end
-end
-
 SetRecipeResultAmount("coalgas-combustion", "combustion-mixture1", 100);     -- Default: 150
 SetRecipeResultAmount("coalgas-combustion-biomass", "combustion-mixture1", 100);     -- Default: 150
 

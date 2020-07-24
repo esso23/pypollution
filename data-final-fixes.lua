@@ -1,3 +1,4 @@
+require('prototypes/common')
 require('prototypes/map-preset')
 require('prototypes/fuels')
 require('prototypes/energy-generators')
