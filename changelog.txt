@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.4
+Date: 2020.07.27
+  Changes:
+    - Coke to Carbon Dioxide recipe now takes 5 Coke and turns it into 200 Carbon Dioxide (instead of 2 -> 80) and takes 4 seconds instead of 10 (in HPF-mk01)
+    - Combustion Mixture recipes using Biomass have been adjusted to produce the same amounts as when using Coke, these recipes are:
+    - Coal Gas, Coal Slurry, Tall Oil, Hydrogen, Syngas, Gasoline, Diborane, Fuel Rods
+    - Doubled the amount of both ingredients and products in Wood->Biomass and Logs->Biomass recipes
+    - Duration of Biomass recipes reduced to 9 seconds (from 10)
+---------------------------------------------------------------------------------------------------
 Version: 0.4.3
 Date: 2020.07.20
   Changes:
@@ -8,7 +17,7 @@ Version: 0.4.2
 Date: 2020.07.15
   Changes:
     - Reducing crafting cost of Compost Plants (MK1 - MK4) to 50% of the original amount
-    - Reduding duration of compost recipes to 10 seconds (30 seconds was way too high considering the size of the building)
+    - Reducing duration of compost recipes to 10 seconds (30 seconds was way too high considering the size of the building)
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.1
 Date: 2020.07.14
