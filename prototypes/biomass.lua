@@ -78,7 +78,7 @@ end
 -- Energy fix for Biomass recipes
 for _,v in pairs(data.raw.recipe) do
 	if (v.subgroup == "py-alienlife-compost") then
-		v.energy_required = 10
+		v.energy_required = 9
 	end
 end
 
@@ -87,8 +87,8 @@ if mods["pyalienlife"] then
 	-- ----------------------------------------------------------------------
     -- Game starters
 	-- ----------------------------------------------------------------------
-	update_biomass_recipe("biomass-wood", nil, "wood", nil, "biomass", 15) -- 3 wood 5 30
-	update_biomass_recipe("biomass-log", nil, "log", nil, "biomass", 15) -- 3 log 1 30
+	update_biomass_recipe("biomass-wood", nil, "wood", 10, "biomass", 30) -- 3 wood 5 30
+	update_biomass_recipe("biomass-log", nil, "log", 2, "biomass", 30) -- 3 log 1 30
 	update_biomass_recipe("biomass-moss", nil, "moss", 10, "biomass", 20) -- 3 moss 3 13
 	update_biomass_recipe("biomass-wood-seedling", nil, "wood-seedling", nil, "biomass", nil) -- 3 wood-seedling 10 10
 	update_biomass_recipe("biomass-wood-seeds", nil, "wood-seeds", nil, "biomass", 15) -- 3 wood-seeds 4 30
@@ -98,7 +98,7 @@ if mods["pyalienlife"] then
 	update_biomass_recipe("biomass-sap-seeds", nil, "sap-seeds", nil, "biomass", nil) -- 3 sap-seeds 1 5
 	update_biomass_recipe("biomass-creamy-latex", nil, "creamy-latex", nil, "biomass", 15) -- 3 creamy-latex 200 21
 	update_biomass_recipe("biomass-agar", nil, "agar", 10, "biomass", 13) -- 3 agar 1 3
-	update_biomass_recipe("biomass-cellulose", nil, "cellulose", nil, "biomass", nil) -- 3 cellulose 1 4
+	update_biomass_recipe("biomass-cellulose", nil, "cellulose", 5, "biomass", 20) -- 3 cellulose 1 4
 	
 	-- ----------------------------------------------------------------------
 	-- Complex plants
