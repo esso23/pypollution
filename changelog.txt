@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.5
+Date: 2020.08.01
+  Bugfix:
+    - Fixing some crashes caused by changes in new pY versions
+  Changes:
+    - Increased pollution of Atomizer to 10/m at MK01
+	- Reduced pollution absorbtion of Fastwood Forestry to -15/m at MK01
+	- Biomass fuel value is now 1MJ (this has been set by Pyanodon recently)
+---------------------------------------------------------------------------------------------------
 Version: 0.4.4
 Date: 2020.07.27
   Changes:
