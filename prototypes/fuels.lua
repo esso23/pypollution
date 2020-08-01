@@ -153,7 +153,7 @@ SetFluidFuelData("propene", "0.90", "1MJ")
 
 SetFluidFuelData("ethanol", "0.90", "0.5MJ")
 
-SetSolidFuelData("biomass", "1.05", "2MJ")
+SetSolidFuelData("biomass", "1.05", "1MJ")
 
 --Debug
 -- for _,v in pairs(data.raw.item) do
