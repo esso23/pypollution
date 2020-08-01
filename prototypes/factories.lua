@@ -98,8 +98,8 @@ local assemblers =
 }
 
 if mods["pyalienlife"] then
-	table.insert(assemblers, { name = "atomizer", coeff = 0.4 })
-	table.insert(assemblers, { name = "fwf", coeff = -2.0 })
+	table.insert(assemblers, { name = "atomizer", coeff = 1.0 })
+	table.insert(assemblers, { name = "fwf", coeff = -1.5 })
 	table.insert(assemblers, { name = "sap-extractor", coeff = -0.5 })
 	table.insert(assemblers, { name = "moss-farm", coeff = -1.5 })
 	table.insert(assemblers, { name = "seaweed-crop", coeff = -1.0 })
