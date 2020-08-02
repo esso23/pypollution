@@ -1,8 +1,8 @@
-function SetRecipeResultAmount(recipe, result, newAmount)
-	local recipe = data.raw.recipe[recipe]
+function SetRecipeResultAmount(recipeName, result, newAmount)
+	local recipe = data.raw.recipe[recipeName]
 	
-	if recipe == nil then
-		log(recipe .. " not found.")
+	if not recipe then
+		log(recipeName .. " not found.")
 		return
 	end
 
@@ -10,7 +10,7 @@ function SetRecipeResultAmount(recipe, result, newAmount)
 	for _,v in pairs(results) do
 		if (v.name == result) then
 			v.amount = newAmount
-			--log("Setting amount to " .. newAmount .. " on recipe's " .. recipe .. " result " .. result)
+			--log("Setting amount to " .. newAmount .. " on recipe's " .. recipeName .. " result " .. result)
 		end
 	end
 end
