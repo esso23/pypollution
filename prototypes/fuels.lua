@@ -155,6 +155,8 @@ SetFluidFuelData("ethanol", "0.90", "0.5MJ")
 
 SetSolidFuelData("biomass", "1.05", "1MJ")
 
+SetSolidFuelData("coal-briquette", "1.10", "30MJ")
+
 --Debug
 -- for _,v in pairs(data.raw.item) do
 	-- if v.fuel_value then
