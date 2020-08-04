@@ -109,6 +109,7 @@ if mods["pyalienlife"] then
 	table.insert(assemblers, { name = "guar-gum-plantation", coeff = -2.0 })
 	table.insert(assemblers, { name = "ralesia-plantation", coeff = -1.5 })
 	table.insert(assemblers, { name = "moondrop-greenhouse", coeff = -2.0 })
+	table.insert(assemblers, { name = "plankton-farm", coeff = -1.0 })
 else
 	table.insert(assemblers, { name = "auog-paddock", coeff = -0.2 })
 	table.insert(assemblers, { name = "ulric-corral", coeff = -1.0 })
