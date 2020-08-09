@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.7
+Date: 2020.08.09
+  Changes:
+    - Reduced Coal Briquette's fuel value to 30MJ and increased it's pollution modifier to 110%
+    - Phytoplankton Farm's pollution modifier changed to -10/s
+    - Powdered Biomass, Fine Powdered Biomass and Dried Biomass now have the same pollution modifier as Biomass
+---------------------------------------------------------------------------------------------------
 Version: 0.4.6
 Date: 2020.08.01
   Bugfix:
