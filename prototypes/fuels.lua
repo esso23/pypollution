@@ -154,6 +154,9 @@ SetFluidFuelData("propene", "0.90", "1MJ")
 SetFluidFuelData("ethanol", "0.90", "0.5MJ")
 
 SetSolidFuelData("biomass", "1.05", "1MJ")
+SetSolidFuelData("powdered-biomass", "1.05", nil)
+SetSolidFuelData("fine-powdered-biomass", "1.05", nil)
+SetSolidFuelData("dried-biomass", "1.05", nil)
 
 SetSolidFuelData("coal-briquette", "1.10", "30MJ")
 
