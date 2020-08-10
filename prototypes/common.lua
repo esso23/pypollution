@@ -14,3 +14,14 @@ function SetRecipeResultAmount(recipeName, result, newAmount)
 		end
 	end
 end
+
+function RemoveAllRecipeIngredients(recipeName)
+	local recipe = data.raw.recipe[recipeName]
+	
+	if not recipe then
+		log(recipeName .. " not found.")
+		return
+	end
+	
+	recipe.ingredients = {}
+end

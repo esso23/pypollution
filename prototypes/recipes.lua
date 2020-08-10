@@ -87,12 +87,6 @@ if not mods["pyalienlife"] then
 	set_emissions_multiplier("guar-05", "guar", 80, 5)
 end
 
--- Solar Panel balancing
-RECIPE("solar-panel"):set_fields {energy_required = 60}
-RECIPE("solar-panel"):remove_ingredient("copper-plate"):add_ingredient({type = "item", name = "copper-plate", amount = 12})
-RECIPE("solar-panel"):remove_ingredient("steel-plate"):add_ingredient({type = "item", name = "steel-plate", amount = 20})
-RECIPE("solar-panel"):remove_ingredient("pyrite"):add_ingredient({type = "item", name = "pyrite", amount = 10})
-
 -- Coke -> CO2 vs Biomass -> CO2 balancing
 RECIPE("coke-co2"):set_fields {energy_required = 2}
 RECIPE("coke-co2"):remove_ingredient("coke"):add_ingredient({type = "item", name = "coke", amount = 5})
