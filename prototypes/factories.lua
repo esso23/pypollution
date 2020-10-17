@@ -126,17 +126,33 @@ else
 	table.insert(assemblers, { name = "ralesia-plantation", coeff = -1.5 })
 end
 
-if mods["pyalienlife"] then
-	if settings.startup["pypollution-enable-glassworks-fix"] and settings.startup["pypollution-enable-glassworks-fix"].value == true then
-		log("pypollution-enable-glassworks-fix ENABLED.")
-		data.raw["assembling-machine"]["glassworks-mk01"].energy_usage = "1MW"
-		data.raw["assembling-machine"]["glassworks-mk02"].energy_usage = "1MW"
-		data.raw["assembling-machine"]["glassworks-mk03"].energy_usage = "1MW"
-		data.raw["assembling-machine"]["glassworks-mk04"].energy_usage = "1MW"
-	else
-		log("pypollution-enable-glassworks-fix DISABLED.")
+if settings.startup["pypollution-enable-glassworks-fix"] and settings.startup["pypollution-enable-glassworks-fix"].value == true then
+	log("pypollution-enable-glassworks-fix ENABLED.")
+	
+	local g01 = data.raw["assembling-machine"]["glassworks-mk01"]
+	if g01 then
+		g01.energy_usage = "1MW"
 	end
 	
+	local g02 = data.raw["assembling-machine"]["glassworks-mk02"]
+	if g02 then
+		g02.energy_usage = "1MW"
+	end
+	
+	local g03 = data.raw["assembling-machine"]["glassworks-mk03"]
+	if g03 then
+		g03.energy_usage = "1MW"
+	end
+	
+	local g04 = data.raw["assembling-machine"]["glassworks-mk04"]
+	if g04 then
+		g04.energy_usage = "1MW"
+	end
+else
+	log("pypollution-enable-glassworks-fix DISABLED.")
+end
+
+if mods["pyalienlife"] then
 	data.raw["furnace"]["compost-plant-mk01"].energy_source.emissions_per_minute = 5
 	data.raw["furnace"]["compost-plant-mk01"].energy_usage = "100kW"
 	data.raw["furnace"]["compost-plant-mk02"].energy_source.emissions_per_minute = 5
