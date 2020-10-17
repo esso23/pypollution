@@ -91,3 +91,6 @@ end
 RECIPE("coke-co2"):set_fields {energy_required = 2}
 RECIPE("coke-co2"):remove_ingredient("coke"):add_ingredient({type = "item", name = "coke", amount = 5})
 SetRecipeResultAmount("coke-co2", "carbon-dioxide", 200);
+
+-- Nexelit-Powered Accumulator
+RECIPE("accumulator-mk01"):set_fields {energy_required = 60}

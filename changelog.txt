@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.5.0
+Date: 2020.08.??
+  Changes:
+    - Solar Panel recipe has been reworked in classic Pyanodon's way
+    - Reduced energy output of Solar Panel to 40kW
+    - Added new Solar Panel type - Advanced Solar Panel which requires Complex Circuit Board to craft and outputs 70kW of energy
+    - These changes are optional and can be disabled in mod settings
+---------------------------------------------------------------------------------------------------
 Version: 0.4.7
 Date: 2020.08.09
   Changes:
